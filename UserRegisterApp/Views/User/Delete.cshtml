@@ -1,0 +1,10 @@
+﻿@model UserRegisterApp.Models.User
+
+<h2>Kullanıcı Sil</h2>
+
+<p>“<strong>@Model.Name</strong>” isimli kullanıcıyı silmek istediğinizden emin misiniz?</p>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger">Evet, Sil</button>
+    <a href="/User/Index" class="btn btn-secondary">İptal</a>
+</form>

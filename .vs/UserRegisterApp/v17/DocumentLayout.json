@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\task\\UserRegisterApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\task\\UserRegisterApp\\UserRegisterApp\\Migrations\\20251121174946_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserRegisterApp\\Migrations\\20251121174946_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\userregisterapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\userregisterapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|c:\\task\\userregisterapp\\userregisterapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D682B0C7-4FEC-4C41-BB6E-03CC49FBB926}|UserRegisterApp\\UserRegisterApp.csproj|solutionrelative:userregisterapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 284,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "UserRegisterApp\\Views\\User\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:05:56.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "UserRegisterApp\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:05:33.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserRegisterApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:55:51.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "UserRegisterApp\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T17:52:40.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "UserRegisterApp\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T17:52:21.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserRegisterApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwIYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:50:48.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "UserRegisterApp\\Models\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:50:22.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251121174946_Init.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Migrations\\20251121174946_Init.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Migrations\\20251121174946_Init.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Migrations\\20251121174946_Init.cs",
+              "RelativeToolTip": "UserRegisterApp\\Migrations\\20251121174946_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:49:46.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Program.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Program.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Program.cs",
+              "RelativeToolTip": "UserRegisterApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:49:19.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\appsettings.json",
+              "RelativeDocumentMoniker": "UserRegisterApp\\appsettings.json",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\appsettings.json",
+              "RelativeToolTip": "UserRegisterApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T17:49:09.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "UserRegisterApp\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:48:56.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegisterApp",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\UserRegisterApp.csproj",
+              "RelativeDocumentMoniker": "UserRegisterApp\\UserRegisterApp.csproj",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\UserRegisterApp.csproj",
+              "RelativeToolTip": "UserRegisterApp\\UserRegisterApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-21T17:48:37.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserRegisterApp\\Models\\User.cs",
+              "ToolTip": "C:\\task\\UserRegisterApp\\UserRegisterApp\\Models\\User.cs",
+              "RelativeToolTip": "UserRegisterApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:48:24.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 10,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

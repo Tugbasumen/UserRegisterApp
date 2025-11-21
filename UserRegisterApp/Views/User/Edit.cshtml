@@ -1,0 +1,30 @@
+﻿@model UserViewModel
+@{
+    ViewBag.Title = "Kullanıcı Düzenle";
+    int userId = (int)ViewBag.UserId;
+    string profileImage = ViewBag.ProfileImagePath as string;
+}
+
+<h2>Kullanıcı Düzenle</h2>
+
+<form method="post" enctype="multipart/form-data" asp-action="Edit" asp-route-id="@userId">
+    <label>İsim</label>
+    <input type="text" name="Name" value="@Model.Name" class="form-control" />
+
+    <label>Email</label>
+    <input type="email" name="Email" value="@Model.Email" class="form-control" />
+
+    <label>Parola (Değiştirmek istemiyorsanız boş bırakın)</label>
+    <input type="password" name="Password" class="form-control" />
+
+    <label>Mevcut Profil Resmi</label><br />
+    @if (!string.IsNullOrEmpty(profileImage))
+    {
+        <img src="@profileImage" width="100" />
+    }
+
+    <label>Profil Resmini Değiştir</label>
+    <input type="file" name="ProfileImage" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-3">Değişiklikleri Kaydet</button>
+</form>

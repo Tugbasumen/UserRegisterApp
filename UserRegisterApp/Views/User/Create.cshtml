@@ -1,0 +1,19 @@
+﻿@model UserViewModel
+
+<h2>Kullanıcı Ekle</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <label>İsim</label>
+    <input type="text" name="Name" class="form-control" />
+
+    <label>Email</label>
+    <input type="email" name="Email" class="form-control" />
+
+    <label>Parola</label>
+    <input type="password" name="Password" class="form-control" />
+
+    <label>Profil Resmi</label>
+    <input type="file" name="ProfileImage" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-3">Kaydet</button>
+</form>

@@ -1,0 +1,31 @@
+﻿@model List<User>
+
+<h2>Kullanıcı Listesi</h2>
+
+<a class="btn btn-success" href="/User/Create">+ Kullanıcı Ekle</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Resim</th>
+            <th>İsim</th>
+            <th>Email</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td><img src="@user.ProfileImagePath" width="60" /></td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" href="/User/Edit/@user.Id">Düzenle</a>
+                    <a class="btn btn-sm btn-danger" href="/User/Delete/@user.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
