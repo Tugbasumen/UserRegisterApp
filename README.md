@@ -93,8 +93,13 @@ dotnet ef migrations add InitialCreate
 
 ```bash
 dotnet ef database update
-```
+```<img width="1919" height="912" alt="Ekran görüntüsü 2025-11-22 141840" src="https://github.com/user-attachments/assets/adc40172-7596-40df-a8d5-f6f2595e56d3" />
+
 
 Veya SQL Server’da manuel olarak **UserDb** DB’sini oluşturabilirsiniz.
+<img width="658" height="580" alt="Ekran görüntüsü 2025-11-22 141934" src="https://github.com/user-attachments/assets/729703ff-b999-46ed-be14-ac086c61d192" />
+<img width="698" height="740" alt="Ekran görüntüsü 2025-11-22 142009" src="https://github.com/user-attachments/assets/bec26d24-593d-49ef-85a3-452bd5fdb604" /><img width="1918" height="885" alt="Ekran görüntüsü 2025-11-22 142035" src="https://github.com/user-attachments/assets/75327bc6-5a97-4568-8e8a-a5bcdff98d28" />
+<img width="1879" height="866" alt="Ekran görüntüsü 2025-11-22 142136" src="https://github.com/user-attachments/assets/7aa8cf7e-7d71-4db7-9b24-a6c06b511782" />
+
 
 ---
