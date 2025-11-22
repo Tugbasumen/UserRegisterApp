@@ -1,0 +1,63 @@
+﻿/* Sayfa arka planı */
+body {
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tam ekran ortalama */
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kart görünümü */
+.delete-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Başlık */
+h2 {
+    color: #444;
+    font-weight: 700;
+}
+
+/* Alert kutusu */
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+    margin-bottom: 20px;
+}
+
+/* Butonlar */
+.btn-danger {
+    background-color: #b64848 !important;
+    border-color: #b64848 !important;
+    font-weight: 600;
+}
+
+    .btn-danger:hover {
+        background-color: #993939 !important;
+        border-color: #993939 !important;
+    }
+
+.btn-secondary {
+    background-color: #7b7b7b !important;
+    border-color: #7b7b7b !important;
+    font-weight: 600;
+}
+
+    .btn-secondary:hover {
+        background-color: #555 !important;
+        border-color: #555 !important;
+    }

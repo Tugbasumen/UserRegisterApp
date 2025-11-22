@@ -5,32 +5,204 @@
       "PackagePath": "staticwebassets\\UserRegisterApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\delete.css",
+      "PackagePath": "staticwebassets\\css\\delete.css"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\edit.css",
+      "PackagePath": "staticwebassets\\css\\edit.css"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\css\\userList.css",
+      "PackagePath": "staticwebassets\\css\\userList.css"
     },
     {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\091835b3-17f2-4734-9da4-ad72f24402fa.jpg",
+      "PackagePath": "staticwebassets\\images\\091835b3-17f2-4734-9da4-ad72f24402fa.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\139f1aaa-16f7-4dd2-a31a-2750340f1535.jpg",
+      "PackagePath": "staticwebassets\\images\\139f1aaa-16f7-4dd2-a31a-2750340f1535.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\19b7be7c-ec9e-4a88-9e3f-21978a2562a8.jpg",
+      "PackagePath": "staticwebassets\\images\\19b7be7c-ec9e-4a88-9e3f-21978a2562a8.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\1da16963-80c6-4852-b67f-ab879b693bcb.jpg",
+      "PackagePath": "staticwebassets\\images\\1da16963-80c6-4852-b67f-ab879b693bcb.jpg"
+    },
+    {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\1da6b46d-46e6-459c-b5d5-f2ec47ffb93d.jpg",
       "PackagePath": "staticwebassets\\images\\1da6b46d-46e6-459c-b5d5-f2ec47ffb93d.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\24d50b25-534e-4284-b439-77e612b26b41.jpg",
+      "PackagePath": "staticwebassets\\images\\24d50b25-534e-4284-b439-77e612b26b41.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\294e031e-f14d-4de5-94a8-84b07b6ac31e.jpg",
+      "PackagePath": "staticwebassets\\images\\294e031e-f14d-4de5-94a8-84b07b6ac31e.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\2a1431bb-0ac2-46a9-9071-30ed9c4e5e72.jpg",
+      "PackagePath": "staticwebassets\\images\\2a1431bb-0ac2-46a9-9071-30ed9c4e5e72.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\2f22ae03-7da0-47c2-aa2c-95949590bb13.jpg",
+      "PackagePath": "staticwebassets\\images\\2f22ae03-7da0-47c2-aa2c-95949590bb13.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\3a0b08bb-fec3-411f-9931-8d35ec3c5de7.jpg",
+      "PackagePath": "staticwebassets\\images\\3a0b08bb-fec3-411f-9931-8d35ec3c5de7.jpg"
     },
     {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\4371d67d-e65c-4539-a7e3-f67704317fea.jpg",
       "PackagePath": "staticwebassets\\images\\4371d67d-e65c-4539-a7e3-f67704317fea.jpg"
     },
     {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\48d78917-b606-4440-be91-c11c6c6d7731.jpg",
+      "PackagePath": "staticwebassets\\images\\48d78917-b606-4440-be91-c11c6c6d7731.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\50bb45bf-fbb4-470e-bc4a-68b05ab9cfeb.jpg",
+      "PackagePath": "staticwebassets\\images\\50bb45bf-fbb4-470e-bc4a-68b05ab9cfeb.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\631e210a-571a-4ef7-b1ab-a92e383a249f.jpg",
+      "PackagePath": "staticwebassets\\images\\631e210a-571a-4ef7-b1ab-a92e383a249f.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\661e1b0f-e6ab-45ee-909b-4a877f06fda2.jpg",
+      "PackagePath": "staticwebassets\\images\\661e1b0f-e6ab-45ee-909b-4a877f06fda2.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\725ce769-3d95-4da0-8f56-e9a5a5b76d74.jpg",
+      "PackagePath": "staticwebassets\\images\\725ce769-3d95-4da0-8f56-e9a5a5b76d74.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\72dce8ad-0a74-4e52-b508-04c447e9faa8.jpg",
+      "PackagePath": "staticwebassets\\images\\72dce8ad-0a74-4e52-b508-04c447e9faa8.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\73bdc262-4f84-406f-910b-353fae984e8c.jpg",
+      "PackagePath": "staticwebassets\\images\\73bdc262-4f84-406f-910b-353fae984e8c.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\7c825e52-770f-40c7-b57f-95527d2732d5.jpg",
+      "PackagePath": "staticwebassets\\images\\7c825e52-770f-40c7-b57f-95527d2732d5.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\7d53571e-a8df-45bb-a5aa-f2d148526bdb.jpg",
+      "PackagePath": "staticwebassets\\images\\7d53571e-a8df-45bb-a5aa-f2d148526bdb.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\7e616648-d8d7-4db3-97e2-74f728e0b64e.jpg",
+      "PackagePath": "staticwebassets\\images\\7e616648-d8d7-4db3-97e2-74f728e0b64e.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\7e98d6b6-7937-4dfa-9cfd-2a9d34786767.jpg",
+      "PackagePath": "staticwebassets\\images\\7e98d6b6-7937-4dfa-9cfd-2a9d34786767.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\7ea205c1-e54c-41a9-a9cd-55d6a79b20f0.jpg",
+      "PackagePath": "staticwebassets\\images\\7ea205c1-e54c-41a9-a9cd-55d6a79b20f0.jpg"
+    },
+    {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\83f3066a-4b0f-4b63-9a1b-9817275ce8c7.jpg",
       "PackagePath": "staticwebassets\\images\\83f3066a-4b0f-4b63-9a1b-9817275ce8c7.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\84cd74e4-ea83-451c-b3a7-f91bd401c7bc.jpg",
+      "PackagePath": "staticwebassets\\images\\84cd74e4-ea83-451c-b3a7-f91bd401c7bc.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\857cbe45-b4db-4920-b2a3-30cc0b4e993d.jpg",
+      "PackagePath": "staticwebassets\\images\\857cbe45-b4db-4920-b2a3-30cc0b4e993d.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\87d7f947-bf9b-4b6a-b86d-965892ce85e9.jpg",
+      "PackagePath": "staticwebassets\\images\\87d7f947-bf9b-4b6a-b86d-965892ce85e9.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\9f024c36-e7d0-44eb-8c03-4b62c064dfdc.jpg",
+      "PackagePath": "staticwebassets\\images\\9f024c36-e7d0-44eb-8c03-4b62c064dfdc.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\9f234337-2c07-4a78-811d-6839b98e2012.jpg",
+      "PackagePath": "staticwebassets\\images\\9f234337-2c07-4a78-811d-6839b98e2012.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\a5c5d8dd-862c-4c7a-92b5-dd3f9daa2ad9.jpg",
+      "PackagePath": "staticwebassets\\images\\a5c5d8dd-862c-4c7a-92b5-dd3f9daa2ad9.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\b066a9d7-8d9a-4932-870b-7c2294f5de06.docx",
+      "PackagePath": "staticwebassets\\images\\b066a9d7-8d9a-4932-870b-7c2294f5de06.docx"
     },
     {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\b1636d32-0047-434a-b252-9f5c0aebde50.jpg",
       "PackagePath": "staticwebassets\\images\\b1636d32-0047-434a-b252-9f5c0aebde50.jpg"
     },
     {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\b3123746-8484-4933-85ed-a55c93ed9186.jpg",
+      "PackagePath": "staticwebassets\\images\\b3123746-8484-4933-85ed-a55c93ed9186.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\bfd62bda-ce8f-4cd1-a9af-37d2b7f5548d.jpg",
+      "PackagePath": "staticwebassets\\images\\bfd62bda-ce8f-4cd1-a9af-37d2b7f5548d.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\c5e9eb71-135c-4425-9d01-25277d4245cb.jpg",
+      "PackagePath": "staticwebassets\\images\\c5e9eb71-135c-4425-9d01-25277d4245cb.jpg"
+    },
+    {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\cef953a9-b252-48da-976b-e1d9a7f919e0.jpg",
       "PackagePath": "staticwebassets\\images\\cef953a9-b252-48da-976b-e1d9a7f919e0.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\d1706224-6494-4737-9183-20628ef83ed2.jpg",
+      "PackagePath": "staticwebassets\\images\\d1706224-6494-4737-9183-20628ef83ed2.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\d2e173c7-bccc-4fce-a318-0b602a646c87.png",
+      "PackagePath": "staticwebassets\\images\\d2e173c7-bccc-4fce-a318-0b602a646c87.png"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\dcd230fe-8901-4a11-8197-4b5e4e549e80.jpg",
+      "PackagePath": "staticwebassets\\images\\dcd230fe-8901-4a11-8197-4b5e4e549e80.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\default-avatar.png",
+      "PackagePath": "staticwebassets\\images\\default-avatar.png"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\e745c385-5138-4420-9198-b1aadac81f5b.jpg",
+      "PackagePath": "staticwebassets\\images\\e745c385-5138-4420-9198-b1aadac81f5b.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\ed9779e5-e885-4f02-ba1d-465be92ba4fd.jpg",
+      "PackagePath": "staticwebassets\\images\\ed9779e5-e885-4f02-ba1d-465be92ba4fd.jpg"
+    },
+    {
+      "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\images\\f5fac63d-6de0-4ea5-ac6e-d5eb88c25578.jpg",
+      "PackagePath": "staticwebassets\\images\\f5fac63d-6de0-4ea5-ac6e-d5eb88c25578.jpg"
     },
     {
       "Id": "C:\\task\\UserRegisterApp\\UserRegisterApp\\wwwroot\\js\\site.js",

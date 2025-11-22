@@ -29,15 +29,29 @@ namespace UserRegisterApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(UserViewModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
             string fileName = null;
 
             if (model.ProfileImage != null)
             {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                var extension = Path.GetExtension(model.ProfileImage.FileName).ToLower();
+
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("ProfileImage", "Sadece JPG, JPEG veya PNG formatında dosya yükleyebilirsiniz.");
+                    return View(model);
+                }
+
                 string folder = Path.Combine(_env.WebRootPath, "images");
                 if (!Directory.Exists(folder))
                     Directory.CreateDirectory(folder);
 
-                fileName = Guid.NewGuid() + Path.GetExtension(model.ProfileImage.FileName);
+                fileName = Guid.NewGuid() + extension;
                 string path = Path.Combine(folder, fileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
@@ -51,16 +65,16 @@ namespace UserRegisterApp.Controllers
                 Name = model.Name,
                 Email = model.Email,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password),
-                ProfileImagePath = "/images/" + fileName
+                ProfileImagePath = fileName != null ? "/images/" + fileName : null
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = $"“{user.Name}” isimli kullanıcı başarıyla eklendi.";
 
             return RedirectToAction("Index");
         }
 
-        // GET: User/Edit/5
         public IActionResult Edit(int id)
         {
             var user = _context.Users.FirstOrDefault(u => u.Id == id);
@@ -71,9 +85,10 @@ namespace UserRegisterApp.Controllers
             {
                 Name = user.Name,
                 Email = user.Email,
-                Password = "", // boş bırakıyoruz, isteğe bağlı olarak şifre değiştirilebilir
+                Password = ""
             };
-            ViewBag.UserId = user.Id; // Id'yi View'e gönderiyoruz
+
+            ViewBag.UserId = user.Id;
             ViewBag.ProfileImagePath = user.ProfileImagePath;
             return View(model);
         }
@@ -85,21 +100,33 @@ namespace UserRegisterApp.Controllers
             if (user == null)
                 return NotFound();
 
-            user.Name = model.Name;
-            user.Email = model.Email;
+            if (!string.IsNullOrWhiteSpace(model.Name))
+                user.Name = model.Name;
+
+            if (!string.IsNullOrWhiteSpace(model.Email))
+                user.Email = model.Email;
 
             if (!string.IsNullOrEmpty(model.Password))
-            {
                 user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password);
-            }
 
             if (model.ProfileImage != null)
             {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                var extension = Path.GetExtension(model.ProfileImage.FileName).ToLower();
+
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("ProfileImage", "Sadece JPG, JPEG veya PNG formatında dosya yükleyebilirsiniz.");
+                    ViewBag.UserId = user.Id;
+                    ViewBag.ProfileImagePath = user.ProfileImagePath;
+                    return View(model);
+                }
+
                 string folder = Path.Combine(_env.WebRootPath, "images");
                 if (!Directory.Exists(folder))
                     Directory.CreateDirectory(folder);
 
-                string fileName = Guid.NewGuid() + Path.GetExtension(model.ProfileImage.FileName);
+                string fileName = Guid.NewGuid() + extension;
                 string path = Path.Combine(folder, fileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
@@ -107,17 +134,16 @@ namespace UserRegisterApp.Controllers
                     await model.ProfileImage.CopyToAsync(stream);
                 }
 
-                // eski resmi silmek istersen buraya kod ekleyebilirsin
                 user.ProfileImagePath = "/images/" + fileName;
             }
 
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = $"“{user.Name}” isimli kullanıcı başarıyla güncellendi.";
 
             return RedirectToAction("Index");
         }
 
-        // GET: User/Delete/5
         public IActionResult Delete(int id)
         {
             var user = _context.Users.FirstOrDefault(u => u.Id == id);
@@ -136,8 +162,9 @@ namespace UserRegisterApp.Controllers
 
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = $"“{user.Name}” isimli kullanıcı başarıyla silindi.";
+
             return RedirectToAction("Index");
         }
-
     }
 }

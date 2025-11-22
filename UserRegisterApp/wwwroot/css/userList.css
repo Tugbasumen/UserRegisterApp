@@ -1,0 +1,65 @@
+﻿/* Form arka planını gri sayfayla uyumlu yap */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Başlık */
+h2 {
+    color: #444;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Label tasarımı */
+.form-label {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Input kutuları */
+form .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    transition: all 0.2s ease;
+}
+
+    /* Input focus efekti */
+    form .form-control:focus {
+        border-color: #666;
+        box-shadow: 0 0 6px rgba(120, 120, 120, 0.3);
+    }
+
+/* Kaydet butonu */
+.btn-primary {
+    background-color: #4a4a4a !important;
+    border-color: #4a4a4a !important;
+    font-weight: 600;
+}
+
+    .btn-primary:hover {
+        background-color: #333 !important;
+        border-color: #333 !important;
+    }
+
+/* Geri dön butonu */
+.btn-secondary {
+    background-color: #7b7b7b !important;
+    border-color: #7b7b7b !important;
+    font-weight: 600;
+}
+
+    .btn-secondary:hover {
+        background-color: #5e5e5e !important;
+        border-color: #5e5e5e !important;
+    }
+
+/* Buton grubu hizalama */
+.d-flex.gap-2 .btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+}

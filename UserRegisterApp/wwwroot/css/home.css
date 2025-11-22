@@ -1,0 +1,39 @@
+﻿/* Kart tasarımı */
+.welcome-card {
+    width: 480px;
+    border-radius: 18px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    text-align: center; /* burası içerikleri ortalar */
+    padding: 40px 20px; /* biraz iç boşluk */
+    margin: 100px auto; /* sayfa ortasında ve üstten boşluk */
+}
+
+/* Başlık */
+.card-title {
+    color: #444 !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Alt açıklama */
+.card-text {
+    color: #777 !important;
+}
+
+/* Büyük buton */
+.custom-btn-width {
+    width: 80%;
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 12px;
+    background-color: #555;
+    border-color: #555;
+    margin-top: 20px; /* butona üstten boşluk */
+}
+
+    .custom-btn-width:hover {
+        background-color: #333;
+        border-color: #333;
+    }

@@ -1,19 +1,44 @@
 ﻿@model UserViewModel
 
-<h2>Kullanıcı Ekle</h2>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" asp-append-version="true" />
+}
 
-<form method="post" enctype="multipart/form-data">
-    <label>İsim</label>
-    <input type="text" name="Name" class="form-control" />
+<div class="page-wrapper">
 
-    <label>Email</label>
-    <input type="email" name="Email" class="form-control" />
+    <form method="post" enctype="multipart/form-data" class="row g-3">
 
-    <label>Parola</label>
-    <input type="password" name="Password" class="form-control" />
+        <h2 class="mb-4">Kullanıcı Ekle</h2>
 
-    <label>Profil Resmi</label>
-    <input type="file" name="ProfileImage" class="form-control" />
+        <div class="col-12">
+            <label class="form-label">İsim</label>
+            <input type="text" name="Name" class="form-control" />
+        </div>
 
-    <button type="submit" class="btn btn-primary mt-3">Kaydet</button>
-</form>
+        <div class="col-12">
+            <label class="form-label">Email</label>
+            <input type="email" name="Email" class="form-control" />
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Parola</label>
+            <input type="password" name="Password" class="form-control" />
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Profil Resmi</label>
+            <input type="file" name="ProfileImage" class="form-control" />
+        </div>
+
+        <div class="col-12 mt-3">
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+                <a href="/User/Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-1"></i> Geri Dön
+                </a>
+            </div>
+        </div>
+
+    </form>
+
+</div>

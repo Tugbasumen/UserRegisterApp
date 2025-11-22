@@ -135,3 +135,7 @@ C:\task\UserRegisterApp\UserRegisterApp\obj\Debug\net8.0\UserRegisterApp.pdb
 C:\task\UserRegisterApp\UserRegisterApp\obj\Debug\net8.0\UserRegisterApp.genruntimeconfig.cache
 C:\task\UserRegisterApp\UserRegisterApp\obj\Debug\net8.0\ref\UserRegisterApp.dll
 C:\task\UserRegisterApp\UserRegisterApp\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\task\UserRegisterApp\UserRegisterApp\obj\Debug\net8.0\UserRegisterApp.sourcelink.json
+C:\task\UserRegisterApp\UserRegisterApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\task\UserRegisterApp\UserRegisterApp\bin\Debug\net8.0\Castle.Core.dll
+C:\task\UserRegisterApp\UserRegisterApp\bin\Debug\net8.0\Moq.dll

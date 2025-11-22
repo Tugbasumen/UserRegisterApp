@@ -1,30 +1,57 @@
 ﻿@model UserViewModel
 @{
-    ViewBag.Title = "Kullanıcı Düzenle";
     int userId = (int)ViewBag.UserId;
     string profileImage = ViewBag.ProfileImagePath as string;
 }
 
-<h2>Kullanıcı Düzenle</h2>
+@section Styles {
+    <link rel="stylesheet" href="~/css/edit.css" asp-append-version="true" />
+}
 
-<form method="post" enctype="multipart/form-data" asp-action="Edit" asp-route-id="@userId">
-    <label>İsim</label>
-    <input type="text" name="Name" value="@Model.Name" class="form-control" />
+<div class="page-wrapper">
 
-    <label>Email</label>
-    <input type="email" name="Email" value="@Model.Email" class="form-control" />
+    <form method="post" enctype="multipart/form-data" asp-action="Edit" asp-route-id="@userId" class="row g-3">
 
-    <label>Parola (Değiştirmek istemiyorsanız boş bırakın)</label>
-    <input type="password" name="Password" class="form-control" />
+        <h2 class="mb-4">Kullanıcı Düzenle</h2>
 
-    <label>Mevcut Profil Resmi</label><br />
-    @if (!string.IsNullOrEmpty(profileImage))
-    {
-        <img src="@profileImage" width="100" />
-    }
+        <div class="col-12">
+            <label class="form-label">İsim</label>
+            <input type="text" name="Name" value="@Model.Name" class="form-control"  />
+        </div>
 
-    <label>Profil Resmini Değiştir</label>
-    <input type="file" name="ProfileImage" class="form-control" />
+        <div class="col-12">
+            <label class="form-label">Email</label>
+            <input type="email" name="Email" value="@Model.Email" class="form-control" />
+        </div>
 
-    <button type="submit" class="btn btn-primary mt-3">Değişiklikleri Kaydet</button>
-</form>
+        <div class="col-12">
+            <label class="form-label">Parola (Değiştirmek istemiyorsanız boş bırakın)</label>
+            <input type="password" name="Password" class="form-control" />
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Mevcut Profil Resmi</label><br />
+            @if (!string.IsNullOrEmpty(profileImage))
+            {
+                <img src="@profileImage" width="100" class="rounded-circle mb-3" />
+            }
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Profil Resmini Değiştir</label>
+            <input type="file" name="ProfileImage" class="form-control" />
+        </div>
+
+        <div class="col-12 mt-3">
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
+
+                <a href="/User/Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-1"></i> Geri Dön
+                </a>
+            </div>
+        </div>
+
+    </form>
+
+</div>
